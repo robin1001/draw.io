@@ -1,1 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T01:56:17.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.2.6" etag="qvdPs9iQMTaNgJnlK1-t" type="github"><diagram id="nwIkPBocC7X6HucinTlS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-14T03:45:44.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="aSfjTynFpIqsPpZrw-Om" version="16.2.6" type="github">
+  <diagram id="nwIkPBocC7X6HucinTlS" name="Page-1">
+    <mxGraphModel dx="1055" dy="709" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ivDDlxlDbqHwWowaYndW-8" value="基本资源（数据准备）" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="35" y="202" width="301" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-9" value="1. 通用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-8">
+          <mxGeometry y="30" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-10" value="    * 英文基础词典 dict/cmudict-0.7b" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-8">
+          <mxGeometry y="60" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-11" value="    * 中文基础词典 dict/cn.dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-8">
+          <mxGeometry y="90" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-12" value="    * 通用语言模型和语料" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-8">
+          <mxGeometry y="120" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-13" value="2. 项目专有" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-8">
+          <mxGeometry y="150" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-14" value="     * 项目专有词表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-8">
+          <mxGeometry y="180" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-15" value="     * 项目专有词典" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-8">
+          <mxGeometry y="210" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-16" value="     * 项目专有语料和 语料生成 Pattern" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-8">
+          <mxGeometry y="240" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-17" value="语言模型训练 （train_lm.sh)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="441" y="202" width="301" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-18" value="step1: 准备 LM 训练词典 lm.vocab" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-17">
+          <mxGeometry y="30" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-20" value="/" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-17">
+          <mxGeometry y="60" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-21" value="step2：项目语言模型训练" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-17">
+          <mxGeometry y="90" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-22" value="/" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-17">
+          <mxGeometry y="120" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-29" value="step3：和通用语言模型插值" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-17">
+          <mxGeometry y="150" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-31" value="/" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-17">
+          <mxGeometry y="180" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-32" value="step4: 转换成 FSN 格式 lm.fsn" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#ffffff;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-17">
+          <mxGeometry y="210" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-34" value="/" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-17">
+          <mxGeometry y="240" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="ivDDlxlDbqHwWowaYndW-10" target="ivDDlxlDbqHwWowaYndW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="ivDDlxlDbqHwWowaYndW-11" target="ivDDlxlDbqHwWowaYndW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="ivDDlxlDbqHwWowaYndW-14" target="ivDDlxlDbqHwWowaYndW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="ivDDlxlDbqHwWowaYndW-16" target="ivDDlxlDbqHwWowaYndW-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="422" y="457" />
+              <mxPoint x="422" y="307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="ivDDlxlDbqHwWowaYndW-12" target="ivDDlxlDbqHwWowaYndW-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-39" value="构建解码图  （build_graph.sh)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="441" y="541" width="301" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-40" value="step1: 生成词典图" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-39">
+          <mxGeometry y="30" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-41" value="    * 查表 + G2P 生成词典" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-39">
+          <mxGeometry y="60" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-44" value="    * phoneme 转换成 syllable: vocab.dict" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-39">
+          <mxGeometry y="90" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-45" value="    * 生成词典图: vocab.hbd" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-39">
+          <mxGeometry y="120" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-46" value="step2: 构建最终解码图" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#ffffff;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-39">
+          <mxGeometry y="150" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-47" value="    * lm.fsn vocab.hbd" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ivDDlxlDbqHwWowaYndW-39">
+          <mxGeometry y="180" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivDDlxlDbqHwWowaYndW-18" target="ivDDlxlDbqHwWowaYndW-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="762" y="247" />
+              <mxPoint x="762" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivDDlxlDbqHwWowaYndW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;dashed=1;" edge="1" parent="1" source="ivDDlxlDbqHwWowaYndW-32" target="ivDDlxlDbqHwWowaYndW-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="793" y="427" />
+              <mxPoint x="793" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
