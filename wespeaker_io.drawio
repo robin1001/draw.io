@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T11:13:53.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="8QjBEeFyZL_EZF-ccxxV" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T11:14:03.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="12jAtwNQzLkYk-csADkc" version="17.2.4" type="github">
   <diagram id="DCdBNZqIKcgh1ZAFiZLw" name="Page-1">
     <mxGraphModel dx="1002" dy="674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,11 +27,6 @@
         </mxCell>
         <mxCell id="jA6ZaiqIhAtj9mefgcWs-18" value="Local Shuffle" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="165" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jA6ZaiqIhAtj9mefgcWs-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="jA6ZaiqIhAtj9mefgcWs-24">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="487" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="jA6ZaiqIhAtj9mefgcWs-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jA6ZaiqIhAtj9mefgcWs-24" target="jA6ZaiqIhAtj9mefgcWs-26">
           <mxGeometry relative="1" as="geometry" />
